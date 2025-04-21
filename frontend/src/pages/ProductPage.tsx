@@ -1,7 +1,11 @@
 //import React from 'react'
 
-function ProductPage() {
+import { useEffect } from 'react'
+
+const ProductPage = () => {
+  useEffect(() => {
+    document.title = 'Product Page'
+  }, [])
   return <div>ProductPage</div>
 }
-
 export default ProductPage

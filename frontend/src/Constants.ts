@@ -1,0 +1,5 @@
+export enum ProductsContants {
+  PRODUCT_FETCH_REQUEST,
+  PRODUCT_FETCH_SUCCESS,
+  PRODUCT_FETCH_FAILED,
+}
