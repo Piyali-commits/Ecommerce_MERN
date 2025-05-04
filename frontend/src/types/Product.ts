@@ -10,3 +10,4 @@ export interface IProduct {
   rating: number
   numReviews: number
 }
+//export enum ThemeMode
